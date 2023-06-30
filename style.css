@@ -1,0 +1,115 @@
+body {
+  background-image: url("https://store.akamai.steamstatic.com/public/shared/images/joinsteam/new_login_bg_strong_mask.jpg");
+  font-family: "Yantramanav", sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  color: white;
+  margin-top: 15%;
+  font-weight: 300;
+  margin-bottom: 8%;
+  font-size: 32px;
+}
+
+.logIn {
+  background-color: #181a21;
+  width: 700px;
+  height: 335px;
+  border-radius: 4px;
+  display: flex;
+}
+
+.left {
+  width: 60%;
+  margin: auto;
+}
+
+.right {
+  width: 40%;
+  margin: auto;
+}
+
+.right p {
+  font-size: 90%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 20%;
+  color: #afafaf;
+}
+
+.right a {
+  color: #1999ff;
+  font-size: 80%;
+}
+
+input {
+  background-color: #32353c;
+  color: white;
+  border-width: 0px;
+  display: block;
+  width: 350px;
+  height: 36.5px;
+  margin: auto;
+}
+.sign {
+  color: #1999ff;
+  display: block;
+  margin-left: 30px;
+}
+
+.pasword {
+  color: #afafaf;
+  display: block;
+  margin-left: 30px;
+}
+
+button {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  width: 270px;
+  height: 47px;
+  background: linear-gradient(90deg, #06bfff 0%, #2d73ff 100%);
+  color: white;
+  border: none;
+  font-size: 110%;
+}
+
+.help {
+  display: block;
+  margin-left: 32%;
+  text-decoration: underline;
+  word-spacing: 2px;
+  padding-top: 50px;
+  color: #afafaf;
+}
+
+img {
+  border-radius: 3%;
+}
+.checkbox {
+  padding-top: 10px;
+  width: 85%;
+  margin: auto;
+  display: flex;
+}
+.checkbox img {
+  width: 20px;
+  height: 20px;
+  padding-right: 3px;
+}
+.checkbox p {
+  font-size: 12px;
+  color: #afafaf;
+  margin-top: 3px;
+}
+
+a {
+  text-decoration: none;
+}

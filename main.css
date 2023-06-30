@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Yantramanav", sans-serif;
+  height: 100%;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.topbar {
+  height: 104px;
+  background-color: #171d25;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topbar p {
+  color: rgb(255, 255, 255);
+  font-size: 120%;
+  padding-left: 3%;
+}
+
+.topbar img {
+  width: 176px;
+}
+
+a {
+  color: #1a9fff;
+  font-size: 120%;
+  padding-left: 3%;
+  text-decoration: underline;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #171d25;
+  width: auto;
+  height: auto;
+  margin-top: -3%;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gallery img {
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+footer {
+  background-color: #171a21;
+}
+.upper {
+  display: flex;
+  color: #898fa0;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.upper img {
+  width: 88px;
+  height: 25px;
+}
